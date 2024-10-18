@@ -1,14 +1,12 @@
-public class Main {
-
+public class Bonus {
     public static void main(String[] args) {
-        // Бонусов нет
+        // Бонус есть
 
-        int balance = 200;
-        int popolnenie = 400;
+        int balance = 300;
+        int popolnenie = 1500;
         int chek = balance + popolnenie;
 
         int persent;
-
         if (popolnenie > 1000) {
             persent = popolnenie / 100 * 1;
         } else {
@@ -16,14 +14,6 @@ public class Main {
         }
         int vsego = chek + persent;
         System.out.println("Итоговая сумма" + vsego);
-
     }
 
-    }
-
-
-
-
-
-
-
+}
